@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap');
+
+.section__height{
+    height: 70vh;
+}
+
+.portfolio__container{
+    margin: 6rem auto;
+}
+
+header{
+    width: 90%;
+}
+
+/* .projects{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+} */
+
+.projects{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.project__img{
+    aspect-ratio: 1/1;
+    width: 10.5rem;
+    border-radius: .5rem;
+}
+
+.projects-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: content-box;
+    margin: 0 auto;
+    border: 1px solid blue;
+    border-radius: 2rem;
+    width: 75%;
+    gap: 5rem;
+}
+
+.project-container{
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    padding: 2rem auto;
+    margin: 1rem auto;
+}
+
+.project-tools{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    color: black;
+    padding: 3px;
+    width: 10.5rem;
+    height: 10.5rem;
+    color: blue;
+    background: #808080d4;
+    border-radius: .5rem;
+    font-family: 'Geologica', sans-serif;
+    transition: all ease 400ms;
+}
+
+.project-container:hover .project-tools{
+    opacity: 1;
+}
+
+@media screen and (max-width: 1024px){
+    .portfolio__container{
+        margin: 0rem auto;
+    }
+
+    header{
+        width: 86%;
+    }
+
+    .projects-container{
+        width: var(--container-width-md);
+        border: 1px solid blue;
+        box-sizing: border-box;
+        padding: 2rem auto;
+        margin: 3rem auto;
+        gap: 1rem;
+    }
+}
+
+
+/* ===================SMALL DEVICES =========================== */
+@media screen and (max-width: 600px){
+    .portfolio__container{
+        margin: 1rem auto;
+    }
+    
+    header{
+        width: var(--container-width-sm);
+    }
+
+    .projects-container{
+        border: 1px solid blue;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem 3rem; 
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-container{
+        padding: 1rem auto;
+        /* gap: .5rem; */
+    }
+}

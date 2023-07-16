@@ -1,0 +1,122 @@
+.main-container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url('path/to/your/image.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; /* Adjust the opacity for the desired overlay effect */
+  }
+  
+  .light .background-image {
+    background-color: rgba(255, 255, 255, 0.5); /* Light theme overlay color */
+  }
+  
+  .dark .background-image {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark theme overlay color */
+  }
+  
+  .content {
+    z-index: 1;
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .light .content {
+    color: #000; /* Light theme text color */
+  }
+  
+  .dark .content {
+    color: #fff; /* Dark theme text color */
+  }
+  
+  .home-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .about-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .about-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .image-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .circular-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-bottom: -50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .light .circular-image {
+    background-color: #fff; /* Light theme circular image color */
+  }
+  
+  .dark .circular-image {
+    background-color: #000; /* Dark theme circular image color */
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .content {
+      padding: 40px;
+    }
+  
+    .about-section {
+      flex-wrap: nowrap;
+    }
+  
+    .about-text {
+      width: 60%;
+      margin-bottom: 0;
+    }
+  
+    .image-section {
+      width: 40%;
+      justify-content: flex-end;
+    }
+  
+    .circular-image {
+      width: 120px;
+      height: 120px;
+      margin-bottom: -60px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .content {
+      padding: 60px;
+    }
+  }
+  
