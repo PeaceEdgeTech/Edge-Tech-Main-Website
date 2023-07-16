@@ -1,40 +1,53 @@
-import React, { useState } from 'react';
-import logo from '../img/logo.jpg';
-import { FaSun, FaMoon } from 'react-icons/fa';
+import React from 'react';
+import logo from '../img/logo.png'
+import { FaBars, FaTimes } from 'react-icons/fa';
 
-const Navbar = ({ theme, toggleTheme }) => {
-  const [isLightMode, setIsLightMode] = useState(true);
+const Nav = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
 
-  const handleThemeToggle = () => {
-    setIsLightMode(!isLightMode);
-    toggleTheme();
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
-    <div id="navbar">
-      <nav className={`navbar ${theme}`}>
-        <div className="navbar-logo">
-          <img src={logo} alt="Logo" width="45px" />
+    <nav className="bg-gray-900 text-blue-600">
+      <div className="container mx-auto px-4 py-2 flex items-center justify-between">
+        <div className="ml-0">
+        <img src={logo} alt="..." w="64" h="64" />
         </div>
-        <div className="navbar-buttons">
-          <ul className="navbar-links">
-            <li><a href="#main">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#services">Services</a></li>
-          </ul>
-          <button className="theme-button" onClick={handleThemeToggle}>
-            <div className="sun-moon-icon">
-              <FaSun className={`sun ${isLightMode ? 'active' : ''}`} />
-              <FaMoon className={`moon ${isLightMode ? '' : 'active'}`} />
-            </div>
+
+        <div className="lg:hidden">
+          <button className="focus:outline-none" onClick={toggleMenu}>
+            {isOpen ? (
+              <FaTimes className="text-2xl" />
+            ) : (
+              <FaBars className="text-2xl" />
+            )}
           </button>
-          <button className="contact-button">Contact Us</button>
         </div>
-      </nav>
-    </div>
+
+        <div className="hidden lg:flex space-x-4">
+          <a href="#" className="hover:text-gray-400">Home</a>
+          <a href="#" className="hover:text-gray-400">About</a>
+          <a href="#" className="hover:text-gray-400">Skills</a>
+          <a href="#" className="hover:text-gray-400">Projects</a>
+          <a href="#" className="hover:text-gray-400">Team</a>
+          <a href="#" className="hover:text-gray-400">Contact</a>
+        </div>
+      </div>
+
+      {isOpen && (
+        <div className="lg:hidden py-2 px-4">
+          <a href="#" className="hover:text-gray-400 block py-1">Home</a>
+          <a href="#" className="hover:text-gray-400 block py-1">About</a>
+          <a href="#" className="hover:text-gray-400 block py-1">Skills</a>
+          <a href="#" className="hover:text-gray-400 block py-1">Projects</a>
+          <a href="#" className="hover:text-gray-400 block py-1">Team</a>
+          <a href="#" className="hover:text-gray-400 block py-1">Contact</a>
+        </div>
+      )}
+    </nav>
   );
 };
 
-export default Navbar;
+export default Nav;
