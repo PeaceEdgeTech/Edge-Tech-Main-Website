@@ -47,17 +47,8 @@ const Nav = () => {
               <button className="bg-gray-900 rounded p-2 w- border border-blue-600 hover:bg-gray-700 hover:text-blue-400"><a href="/contact">Contact</a></button>
             </li>
             <li>
-            <button
-      className={`relative rounded-full p-2 w-10 h-10 bg-gray-900 text-white focus:outline-none transition-colors duration-300 ${
-        isDarkMode ? 'justify-end' : 'justify-start'
-      }`}
-      onClick={toggleDarkMode}
-    >
-      <div
-        className={`absolute inset-0 rounded-full ${
-          isDarkMode ? 'bg-blue-600 right-0' : 'bg-white left-0'
-        } border border-${isDarkMode ? 'blue-600' : 'white'}`}
-      />
+            <buttonclassName={`relative rounded-full p-2 w-10 h-10 bg-gray-900 text-white focus:outline-none transition-colors duration-300 ${isDarkMode ? 'justify-end' : 'justify-start'}`}onClick={toggleDarkMode}>
+      <div className={`absolute inset-0 rounded-full ${isDarkMode ? 'bg-blue-600 right-0' : 'bg-white left-0'} border border-${isDarkMode ? 'blue-600' : 'white'}`}/>
       <div className="flex items-center">
         <FaMoon className="text-yellow-400" />
         <FaSun className="text-yellow-400 ml-1" />
