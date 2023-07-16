@@ -10,10 +10,10 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-gray-900 text-blue-600">
+    <nav className="bg-black text-blue-600">
       <div className="container mx-auto px-4 py-2 flex items-center justify-between">
         <div className="ml-0">
-        <img src={logo} alt="..." w="64" h="64" />
+        <img src={logo} alt="..." className='w-20 h-20'/>
         </div>
 
         <div className="lg:hidden">
@@ -27,23 +27,25 @@ const Nav = () => {
         </div>
 
         <div className="hidden lg:flex space-x-4">
-          <a href="#" className="hover:text-gray-400">Home</a>
-          <a href="#" className="hover:text-gray-400">About</a>
-          <a href="#" className="hover:text-gray-400">Skills</a>
-          <a href="#" className="hover:text-gray-400">Projects</a>
-          <a href="#" className="hover:text-gray-400">Team</a>
-          <a href="#" className="hover:text-gray-400">Contact</a>
+          <a href="/" className="hover:text-gray-400">Home</a>
+          <a href="/about" className="hover:text-gray-400">About</a>
+          <a href="/skills" className="hover:text-gray-400">Skills</a>
+          <a href="/projects" className="hover:text-gray-400">Projects</a>
+          <a href="/team" className="hover:text-gray-400">Team</a>
+          <button>
+          <a href="/contact" className="hover:text-gray-400">Contact</a>
+          </button>
         </div>
       </div>
 
       {isOpen && (
         <div className="lg:hidden py-2 px-4">
-          <a href="#" className="hover:text-gray-400 block py-1">Home</a>
-          <a href="#" className="hover:text-gray-400 block py-1">About</a>
-          <a href="#" className="hover:text-gray-400 block py-1">Skills</a>
-          <a href="#" className="hover:text-gray-400 block py-1">Projects</a>
-          <a href="#" className="hover:text-gray-400 block py-1">Team</a>
-          <a href="#" className="hover:text-gray-400 block py-1">Contact</a>
+          <a href="/" className="hover:text-gray-400 block py-1">Home</a>
+          <a href="/about" className="hover:text-gray-400 block py-1">About</a>
+          <a href="/skills" className="hover:text-gray-400 block py-1">Skills</a>
+          <a href="/projects" className="hover:text-gray-400 block py-1">Projects</a>
+          <a href="/team" className="hover:text-gray-400 block py-1">Team</a>
+          <a href="/contact" className="hover:text-gray-400 block py-1">Contact</a>
         </div>
       )}
     </nav>
