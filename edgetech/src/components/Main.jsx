@@ -1,8 +1,7 @@
 import React from 'react';
-import './main.css';
-import Image1 from '../../img/image1.jpg';
-import Image2 from '../../img/image2.jpg';
-import Image3 from '../../img/image3.jpg';
+import Image1 from '../img/image1.jpg';
+import Image2 from '../img/image2.jpg';
+import Image3 from '../img/image3.jpg';
 
 const Main = ({ theme }) => {
   return (

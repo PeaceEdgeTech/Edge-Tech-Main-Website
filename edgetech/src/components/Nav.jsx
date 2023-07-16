@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './nav.css';
-import logo from '../../img/logo.jpg';
+import logo from '../img/logo.jpg';
 import { FaSun, FaMoon } from 'react-icons/fa';
 
 const Navbar = ({ theme, toggleTheme }) => {

@@ -1,85 +1,104 @@
-import React from 'react'
-import './skills.css'
-import { FaDotCircle } from 'react-icons/fa'
-
+import React from 'react';
+import { FaDotCircle } from 'react-icons/fa';
 
 const Skills = () => {
   return (
-    <div id="section">
-      
-      <header>
-        <h3>SKILLS</h3>
+    <div id="section" className="bg-gray-100">
+      <header className="flex justify-center py-4">
+        <h3 className="font-semibold text-blue-500">SKILLS</h3>
       </header>
-      
-      <div className="container__skills">
- 
-        <div className="skills ">
-          <div className="skills__border marquee">
-            <article className="front__skill">
-              <FaDotCircle className="circle" /> 
-              <div className="skill">HTML</div>
-            </article>
 
-            <article className="front__skill"> 
-              <FaDotCircle className="circle" /> 
-              <div className="skill">CSS</div>
-            </article>
-            
-            <article className="front__skill">
-              <FaDotCircle className="circle" />
-              <div className="skill">BOOTSRAP</div>
-            </article>
+      <div className="container mx-auto py-8">
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">HTML</div>
+              </div>
+            </div>
 
-            <article className="front__skill">
-              <FaDotCircle className="circle" />
-              <div className="skill"> SASS</div>
-            </article>
-            
-            <article className="front__skill">
-              <FaDotCircle className="circle" />
-              <div className="skill"> TAILWIND</div>
-            </article>
-            
-            <article className="front__skill">
-              <FaDotCircle className="circle" />
-              <div className="skill"> JAVASCRIPT</div>
-            </article>
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">CSS</div>
+              </div>
+            </div>
+
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">BOOTSTRAP</div>
+              </div>
+            </div>
+
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">SASS</div>
+              </div>
+            </div>
+
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">TAILWIND</div>
+              </div>
+            </div>
+
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">JAVASCRIPT</div>
+              </div>
+            </div>
+
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">PHP</div>
+              </div>
+            </div>
+
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">LARAVEL</div>
+              </div>
+            </div>
+
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">MongoDB</div>
+              </div>
+            </div>
+
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">SQLite</div>
+              </div>
+            </div>
+
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">Python</div>
+              </div>
+            </div>
+
+            <div className="p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
+              <div className="flex items-center">
+                <FaDotCircle className="text-blue-500 mr-2" />
+                <div className="font-semibold">Django</div>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div className="skills">
-          <div className="skills__border marquee__right">
-            <article className="front__skill">
-              <FaDotCircle className="circle" /> 
-              <div className="skill">PHP</div>
-            </article>
-            <article className="front__skill">
-              <FaDotCircle className="circle" /> 
-              <div className="skill">LARAVEL</div>
-            </article>
-            <article className="front__skill">
-              <FaDotCircle className="circle" /> 
-              <div className="skill">MongoDB</div>
-            </article>
-            <article className="front__skill">
-              <FaDotCircle className="circle" /> 
-              <div className="skill">SQLite</div>
-            </article>
-            <article className="front__skill">
-              <FaDotCircle className="circle" /> 
-              <div className="skill">Python</div>
-            </article>
-            <article className="front__skill">
-              <FaDotCircle className="circle" /> 
-              <div className="skill">Django</div>
-            </article>
-          </div>
-        </div>
-          
-
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

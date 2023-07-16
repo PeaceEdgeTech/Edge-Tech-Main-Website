@@ -1,5 +1,4 @@
 import React from 'react'
-import './footer.css'
 import  { AiOutlineInstagram } from 'react-icons/ai'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { AiFillGithub } from 'react-icons/ai'
