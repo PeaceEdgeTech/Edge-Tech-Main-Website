@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from './components/Nav'
 import Main from './components/Main'
 import About from './components/About'
 import Skills from './components/Skills'
@@ -10,7 +9,6 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Main />
       <About />
       <Skills />
