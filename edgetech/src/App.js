@@ -1,10 +1,10 @@
 import React from 'react'
-import Nav from './components/nav/Nav'
-import Main from './components/main/Main'
-import About from './components/about/About'
-import Skills from './components/skills/Skills'
-import Portfolio from './components/portfolio/Portfolio'
-import Footer from './components/footer/Footer'
+import Nav from './components/Nav'
+import Main from './components/Main'
+import About from './components/About'
+import Skills from './components/Skills'
+import Portfolio from './components/Portfolio'
+import Footer from './components/Footer'
 
 
 function App() {
