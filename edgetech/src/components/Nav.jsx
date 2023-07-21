@@ -15,8 +15,8 @@ const Nav = () => {
   };
 
   return (
-    <nav className={isDarkMode ? 'bg-black text-blue-600 font-bold' : 'bg-white text-blue-600 font-bold'}>
-      <div className="container mx-auto px-4 py-2 flex items-center justify-between">
+    <nav className={` text-blue-600 font-bold ${isDarkMode ? 'bg-black ' : 'bg-white '}`}>
+      <div className="container mx-auto px-4 py-2 flex  items-center justify-between">
         <div className="ml-0">
           <img src={logo} alt="Logo" className="w-20 h-20" />
         </div>
