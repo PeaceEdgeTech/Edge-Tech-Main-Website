@@ -3,7 +3,7 @@ import audi from '../img/Audi.jpg'
 
 const Services = () => {
   return (
-    <div className='p-4'>
+    <div className='p-4 m-4' id='services'>
     <header className="flex justify-center py-4">
       <h3 className="font-semibold text-4xl text-blue-600 uppercase">Services</h3>
     </header>

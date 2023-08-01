@@ -5,6 +5,8 @@ import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 import Services from './components/Services'
+import VM from './components/VM'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -13,8 +15,10 @@ function App() {
       <Main />
       <About />
       <Skills />
+      <VM/>
       <Services />
       <Portfolio />
+      <Contact />
       <Footer />
     </div>
   );

@@ -2,13 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
-*{
-  font-family: 'Poppins';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
 }

@@ -3,7 +3,7 @@ import audi from "../img/Audi.jpg"
 
 const About = () => {
   return (
-    <div id="about" className='mt-12 p-4'>
+    <div id="about" className='m-12 p-4 mb-20'>
       <div className='items-center justify-center flex p-6 mb-6'>
         <h1 className='text-4xl text-blue-600 uppercase font-bold'>About Us</h1>
       </div>
