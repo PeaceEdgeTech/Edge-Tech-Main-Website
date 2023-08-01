@@ -6,7 +6,7 @@ const Portfolio = () => {
     <div id="portfolio" className="h-3/4 mx-12">
       <div className="container mx-auto">
         <header className='flex justify-center'>
-          <h3 className="font-semibold text-4xl text-blue-800">PORTFOLIO</h3>
+          <h3 className="font-semibold text-4xl text-blue-600">PORTFOLIO</h3>
         </header>
 
         <div className="flex justify-center bg-gray-100 mt-6">

@@ -1,27 +1,33 @@
 import React from 'react';
-import Image1 from '../img/image1.jpg';
-import Image2 from '../img/image2.jpg';
-import Image3 from '../img/image3.jpg';
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaFacebook, FaGithub, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
-const Main = ({ theme }) => {
+const Main = () => {
+
   return (
-    <div id="home" className={`main-container ${theme}`}>
-      <div className="flex flex-col items-center">
-        <h2 className="text-4xl text-blue-800">Home</h2>
-          
-          <div className="flex">
-            Not sure what is meant to be here sir <br/> Prof Prince Peace Sir
-            <div className="">
-              <img src={Image1} alt="First person" className="circular-image" />
-            </div>
-            <div className="">
-              <img src={Image2} alt="Second person" className="circular-image" />
-            </div>
-            <div className="">
-              <img src={Image3} alt="third person" className="circular-image" />
-            </div>
-          </div>
-      </div>
+    <div className='flex flex-col items-center justify-center p-60'>
+      <span className='text-2xl text-gray-600 m-2'>Welcome to <b className='text-blue-700'>EDGE TECH</b></span>
+      <span className='text-2xl text-gray-600 m-2'>Let's build your websites and software for you!</span>
+      <span className='text-blue-600 flex m-2'>
+        <a href="mailto:edgetech224@gmail.com">
+          <AiOutlineMail className='m-2 cursor-pointer' />
+        </a>
+        <a href="https://github.com/PeaceOloruntoba">
+          <FaGithub className='m-2 cursor-pointer' />
+        </a>
+        <a href="https://facebook.com/">
+          <FaFacebook className='m-2 cursor-pointer' />
+        </a>
+        <a href="https://instagram.com/">
+          <FaInstagram className='m-2 cursor-pointer' />
+        </a>
+        <a href="https://twitter.com/">
+          <FaTwitter className='m-2 cursor-pointer' />
+        </a>
+        <a href="https://wa.me/2348166846226/">
+          <FaWhatsapp className='m-2 cursor-pointer' />
+        </a>
+      </span>
     </div>
   );
 };

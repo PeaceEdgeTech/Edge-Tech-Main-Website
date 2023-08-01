@@ -5,13 +5,11 @@ import { FaBars, FaTimes, FaMoon, FaSun } from 'react-icons/fa';
 const Nav = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const [isDarkMode, setIsDarkMode] = React.useState(true);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
+  };
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
@@ -45,6 +43,11 @@ const Nav = () => {
               </a>
             </li>
             <li>
+              <a href="/services" className="hover:text-blue-800">
+                Services
+              </a>
+            </li>
+            <li>
               <a href="/projects" className="hover:text-blue-800">
                 Projects
               </a>
@@ -56,13 +59,13 @@ const Nav = () => {
             </li>
             <li>
               <button
-                className={`relative rounded-full p-2 w-10 h-10 bg-gray-900 text-white focus:outline-none transition-colors duration-300 ${
+                className={`relative rounded-xl p-2 w-10 h-10 bg-gray-900 text-white focus:outline-none transition-colors duration-300 ${
                   isDarkMode ? 'justify-end' : 'justify-start'
                 }`}
                 onClick={toggleDarkMode}
               >
-                <div className={`absolute inset-0 rounded-full border border-blue-600 ${isDarkMode ? 'bg-black right-0' : 'bg-white left-0'}`} />
-                <div className="flex items-center">
+                <div className={`absolute inset-0 rounded-xl border border-blue-600 ${isDarkMode ? 'bg-black right-0' : 'bg-white left-0'}`} />
+                <div className="flex">
                   {isDarkMode ? <FaSun className="text-blue-600" /> : <FaMoon className="text-blue-600" />}
                 </div>
               </button>
