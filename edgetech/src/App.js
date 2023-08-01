@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Services from './components/Services'
 import VM from './components/VM'
 import Contact from './components/Contact'
+import Testimonials from './components/Testimonials'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <VM/>
       <Services />
       <Portfolio />
+      <Testimonials />
       <Contact />
       <Footer />
     </div>
