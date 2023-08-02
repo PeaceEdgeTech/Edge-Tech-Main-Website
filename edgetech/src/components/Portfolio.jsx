@@ -8,7 +8,6 @@ const Portfolio = () => {
         <header className='flex justify-center'>
           <h3 className="font-semibold text-4xl text-blue-600">PORTFOLIO</h3>
         </header>
-
         <div className="flex justify-center bg-gray-100 mt-6">
           <div className="grid grid-cols-1 my-12 sm:grid-cols-2 md:grid-cols-3 lg:gap-20 gap-4 md:gap-10 mt-8">
           <div className="group relative bg-white p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
@@ -24,7 +23,6 @@ const Portfolio = () => {
                   </ul>
               </div>
             </div>
-
             <div className="group relative bg-white p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
               <img src={audi} alt="one of my old cars" className="w-40 h-40 rounded-md" />  
                 <div className="opacity-0 absolute top-4 bg-gray-500 bg-opacity-70 w-40 h-40 rounded-md p-2 transition-opacity duration-300 group-hover:opacity-100">
@@ -38,7 +36,6 @@ const Portfolio = () => {
                   </ul>
               </div>
             </div>
-
             <div className="group relative bg-white p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
               <img src={audi} alt="one of my old cars" className="w-40 h-40 rounded-md" />  
                 <div className="opacity-0 absolute top-4 bg-gray-500 bg-opacity-70 w-40 h-40 rounded-md p-2 transition-opacity duration-300 group-hover:opacity-100">
@@ -52,7 +49,6 @@ const Portfolio = () => {
                   </ul>
               </div>
             </div>
-
             <div className="group relative bg-white p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
               <img src={audi} alt="one of my old cars" className="w-40 h-40 rounded-md" />  
                 <div className="opacity-0 absolute top-4 bg-gray-500 bg-opacity-70 w-40 h-40 rounded-md p-2 transition-opacity duration-300 group-hover:opacity-100">
@@ -66,7 +62,6 @@ const Portfolio = () => {
                   </ul>
               </div>
             </div>
-
             <div className="group relative bg-white p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
               <img src={audi} alt="one of my old cars" className="w-40 h-40 rounded-md" />  
                 <div className="opacity-0 absolute top-4 bg-gray-500 bg-opacity-70 w-40 h-40 rounded-md p-2 transition-opacity duration-300 group-hover:opacity-100">
@@ -80,7 +75,6 @@ const Portfolio = () => {
                   </ul>
               </div>
             </div>
-
             <div className="group relative bg-white p-4 border border-blue-500 rounded-lg transition duration-300 hover:bg-black">
               <img src={audi} alt="one of my old cars" className="w-40 h-40 rounded-md" />  
                 <div className="opacity-0 absolute top-4 bg-gray-500 bg-opacity-70 w-40 h-40 rounded-md p-2 transition-opacity duration-300 group-hover:opacity-100">
