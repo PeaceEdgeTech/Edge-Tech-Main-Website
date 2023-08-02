@@ -2,7 +2,7 @@ import React from 'react'
 import IMG1 from '../img/ppp.jpg'
 import IMG2 from '../img/ppp2.png'
 
-import { Navigation, Pagination} from 'swiper/modules';
+import { Pagination} from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

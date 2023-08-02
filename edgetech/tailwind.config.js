@@ -4,10 +4,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontSize: {
+      'check': ['8rem'],
+    },
     extend: {
-      // animation: {
-      //   'linear': 'marquee 1s linear infinite'
-      // }
+     keyframes: {
+      marquee: {
+        '0%': { transform: 'translateX(0rem)' },
+        '100%': { transform: 'translateX(37rem)' },
+        'infinite':true,
+      }
+     }
     },
   },
   plugins: [],
