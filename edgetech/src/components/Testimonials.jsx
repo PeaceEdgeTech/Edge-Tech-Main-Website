@@ -32,7 +32,6 @@ const data = [
         name: 'Prof Prince',
         review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quidem nam asperiores doloremque laborum ut numquam minima nisi quam tenetur? Odit libero necessitatibus veritatis ad, et qui quas maiores, perferendis tenetur laudantium eos eum earum vel labore natus dignissimos aliquam nulla! Ipsam ab error quis, incidunt unde consequuntur molestiae sint."
     },
-
 ]
 function Testimonials() {
   return (
@@ -40,8 +39,6 @@ function Testimonials() {
         <header className='flex justify-center'>
             <h1 className='text-4xl font-semibold text-blue-600'>TESTIMONIALS</h1>
         </header>
-
-
         <Swiper modules={[Pagination]} spaceBetween={60} slidesPerView={1} pagination={{ clickable: true }} className='w-2/3 pb-20 lg:w-[50rem]'>
         { data.map(({pic, name, review}, index) =>{    
             return(
@@ -59,8 +56,6 @@ function Testimonials() {
         })
         }
         </Swiper>
-
-
     </div>
   )
 }

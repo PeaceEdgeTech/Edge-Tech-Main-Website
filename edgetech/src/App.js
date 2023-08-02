@@ -9,7 +9,6 @@ import VM from './components/VM'
 import Contact from './components/Contact'
 import Testimonials from './components/Testimonials'
 
-
 function App() {
   return (
     <div className="App">
