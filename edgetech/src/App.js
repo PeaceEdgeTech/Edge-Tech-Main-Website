@@ -19,7 +19,7 @@ function App() {
       <VM/>
       <Services />
       <Portfolio />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Contact />
       <Footer />
     </div>
