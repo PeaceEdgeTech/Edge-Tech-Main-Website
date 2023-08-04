@@ -5,8 +5,8 @@ import { FaFacebook, FaGithub, FaInstagram, FaTwitter, FaWhatsapp } from 'react-
 const Main = () => {
 
   return (
-    <div className='flex flex-col items-center justify-center mt-40 mb-60'>
-      <span className='text-2xl text-gray-600 m-2'>Welcome to <b className='text-blue-600'>EDGE TECH</b></span>
+    <div className='flex flex-col items-center justify-center mt-40 mb-60 dark:bg-gray-900'>
+      <span className='text-2xl text-gray-600 m-2 dark:'>Welcome to <b className='text-blue-600'>EDGE TECH</b></span>
       <span className='text-xl text-gray-600 m-2'>Let's build your websites and software for you!</span>
       <span className='text-blue-600 flex m-2 justify-center '>
         <a href='mailto:edgetech224@gmail.com'>
