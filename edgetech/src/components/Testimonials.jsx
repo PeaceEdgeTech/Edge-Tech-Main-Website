@@ -37,7 +37,7 @@ function Testimonials() {
   return (
     <div id='section' className='mt-12 user-select-none'>
         <header className='flex justify-center'>
-            <h1 className='text-4xl font-semibold text-blue-600'>TESTIMONIALS</h1>
+            <h1 className='text-4xl tracking-widest uppercase text-blue-600 font-semibold'>TESTIMONIALS</h1>
         </header>
         <Swiper modules={[Pagination]} spaceBetween={60} slidesPerView={1} pagination={{ clickable: true }} className='w-2/3 pb-20 lg:w-[50rem]'>
         { data.map(({pic, name, review}, index) =>{    

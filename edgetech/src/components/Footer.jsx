@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex flex-col items-center'>
-        <p>+234 816 684 6226</p>
+        <a href="phone:+2348166846226">+234 816 684 6226</a>
         <a href="mailto:edgetech224@gmail.com">edgetech224@gmail.com</a>
         <p>Address: all around the web (Always watching you 😶‍🌫️😶‍🌫️😶‍🌫️)</p>
         <span className='text-gray-800 flex m-2'>
@@ -32,7 +32,7 @@ const Footer = () => {
         </span>
       </div>
       <article className="flex justify-center items-center text-xs mt-2 mx-1 sm:mx-4">
-        Copyright © 2023 ,<a href="/">Edge Tech</a>. All rights reserved.
+        Copyright © 2023 <a href="/">Edge Tech</a>. All rights reserved.
       </article>
     </div>
   )

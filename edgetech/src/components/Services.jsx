@@ -5,9 +5,9 @@ const Services = () => {
   return (
     <div className='p-4 m-4' id='services'>
     <header className="flex justify-center py-4">
-      <h3 className="font-semibold text-4xl text-blue-600 uppercase">Services</h3>
+      <h3 className="text-4xl tracking-widest uppercase text-blue-600 font-semibold">Services</h3>
     </header>
-    <div className='flex flex-row items-center justify-center p-4'>
+    <div className='grid grid-col-1 sm:grid-cols-3 md:grid-cols-3 items-center justify-center p-4'>
         <div className='flex flex-col items-center justify-center p-2'>
             <h3 className='uppercase text-xl text-blue-800 mb-1'>Web Development</h3>
             <img src={audi} alt="" className='rounded-full w-20 h-20 m-1 cursor-pointer'/>

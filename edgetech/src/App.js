@@ -20,6 +20,7 @@ function App() {
       <Portfolio />
       <Testimonials />
       <Contact />
+      <div className='border border-lg w-full border-blue-600'></div>
       <Footer />
     </div>
   );
