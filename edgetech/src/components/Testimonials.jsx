@@ -39,10 +39,10 @@ function Testimonials() {
         <header className='flex justify-center'>
             <h1 className='text-4xl tracking-widest uppercase text-blue-600 font-semibold'>TESTIMONIALS</h1>
         </header>
-        <Swiper modules={[Pagination]} spaceBetween={60} slidesPerView={1} pagination={{ clickable: true }} className='w-2/3 pb-20 lg:w-[50rem]'>
+        <Swiper modules={[Pagination]} spaceBetween={60} slidesPerView={1} pagination={{ clickable: true }} className='w-2/3 pb-20 lg:w-[50rem] shadow-xl shadow-blue-400'>
         { data.map(({pic, name, review}, index) =>{    
             return(
-                <SwiperSlide key={index} className='flex flex-col items-center mt-6 bg-gray-200 rounded-xl'> 
+                <SwiperSlide key={index} className='flex flex-col items-center mt-6 rounded-xl'> 
                     <div className='flex flex-col items-center p-4'>
                         <img src={pic} alt="Prof Prince Peace" className='h-12 '/>
                     </div>

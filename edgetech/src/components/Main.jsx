@@ -40,7 +40,7 @@ const Main = () => {
           </div>
         </a>
       </span>
-      <div className='border border-xl w-3/4 border-blue-600 mt-2'></div>
+      <div className='border border-xl w-3/4 border-blue-600 mt-2 shadow-xl shadow-blue-400'></div>
     </div>
   );
 };
