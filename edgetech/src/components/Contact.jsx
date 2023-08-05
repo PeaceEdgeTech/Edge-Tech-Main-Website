@@ -8,8 +8,10 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full text-gray-600'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-        <p className='text-4xl tracking-widest uppercase text-blue-600 font-semibold'>Contact Us</p>
-        <h2 className='py-4'>Get in Touch with us</h2>
+        <header className='flex flex-col items-center'>
+          <p className='text-4xl tracking-widest uppercase text-blue-600 font-semibold'>Contact Us</p>
+          <h2 className='py-4'>Get in Touch with us</h2>
+        </header>
         <div className='grid lg:grid-cols-5 gap-8'>
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-blue-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full'>

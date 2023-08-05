@@ -74,7 +74,7 @@ const Skills = () => {
           </article>
           </div>
         </div>
-          <p>Programming Languages:</p>
+          <p className='mt-7'>Programming Languages:</p>
         {/* SECOND ROW */}
         <div className='flex p-4 m-4 shadow-xl shadow-blue-600 w-screen'>
           <div className='overflow-hidden animate-marquee-right flex'>
@@ -146,7 +146,7 @@ const Skills = () => {
           </article>
         </div>
         </div>
-          <p>Frameworks and Libraries:</p>
+          <p className='mt-7'>Frameworks and Libraries:</p>
         {/* THIRD ROW */}
         <div className='flex p-4 m-4 shadow-xl shadow-blue-600 w-screen'>
           <div className='overflow-hidden animate-marquee-left flex'>
@@ -200,7 +200,7 @@ const Skills = () => {
           </article>
         </div>
         </div>
-          <p>Databases and Storages:</p>
+          <p className='mt-7'>Databases and Storages:</p>
         {/* FOURTH ROW */}
         <div className='flex p-4 m-4 shadow-xl shadow-blue-600 w-screen'>
           <div className='overflow-hidden animate-marquee-right flex'>
@@ -272,7 +272,7 @@ const Skills = () => {
           </article>
         </div>
         </div>
-          <p>Utilities and Tools:</p>
+          <p className='mt-7'>Utilities and Tools:</p>
       </div>
       </div>
     </div>
