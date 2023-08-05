@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
           <div className='col-span-3 w-full h-auto shadow-xl shadow-blue-400 rounded-xl lg:p-4'>
             <div className='p-4'>
-              <form action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060' method='POST' encType='multipart/form-data'>
+              <form action='https://getform.io/f/4bbb45ae-757d-4c8f-93fa-322bfeb7d00f' method='POST' encType='multipart/form-data'>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
                     <label className='uppertext py-2 text-sm'>Name:</label>
@@ -78,7 +78,7 @@ const Contact = () => {
                   <label className='uppertext py-2 text-sm'>Message:</label>
                   <textarea className='border-2 rounded-lg p-3 border-gray-600' rows='10' name='message'></textarea>
                 </div>
-                <button className='w-full p-4 text-white bg-blue-600 mt-4 font-bold border rounded-lg'>Send Message</button>
+                <button type='submit' className='w-full p-4 text-white bg-blue-600 mt-4 font-bold border rounded-lg'>Send Message</button>
               </form>
             </div>
           </div>
