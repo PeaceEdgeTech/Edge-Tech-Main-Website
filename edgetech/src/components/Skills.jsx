@@ -10,7 +10,8 @@ const Skills = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center m-4 text-gray-600">
           {/* FIRST ROW */}
-        <div className='flex p-4 m-2 shadow-xl shadow-blue-600 w-screen mt-2 overflow-hidden animate-marquee-left'>
+        <div className='flex p-4 m-2 shadow-xl shadow-blue-600 w-screen mt-2'>
+          <div className='overflow-hidden animate-marquee-left flex'>
           <article className="">
             <div className=" flex mr-3">
               <FaDotCircle className="mr-1 relative top-1" />
@@ -71,10 +72,12 @@ const Skills = () => {
               <div className="font-semibold">Dart</div>
             </div>
           </article>
+          </div>
         </div>
           <p>Programming Languages:</p>
         {/* SECOND ROW */}
-        <div className='flex p-4 m-4 shadow-xl shadow-blue-600 w-screen overflow-hidden animate-marquee-right'>
+        <div className='flex p-4 m-4 shadow-xl shadow-blue-600 w-screen'>
+          <div className='overflow-hidden animate-marquee-right flex'>
           <article className="">
             <div className=" flex mr-3">
               <FaDotCircle className="mr-1 relative top-1" />
@@ -142,9 +145,11 @@ const Skills = () => {
             </div>
           </article>
         </div>
+        </div>
           <p>Frameworks and Libraries:</p>
         {/* THIRD ROW */}
-        <div className='flex p-4 m-4 shadow-xl shadow-blue-600 w-screen overflow-hidden animate-marquee-left'>
+        <div className='flex p-4 m-4 shadow-xl shadow-blue-600 w-screen'>
+          <div className='overflow-hidden animate-marquee-left flex'>
           <article className="">
             <div className=" flex mr-3">
               <FaDotCircle className="mr-1 relative top-1" />
@@ -184,19 +189,21 @@ const Skills = () => {
           <article className="">
             <div className="flex mr-3">
               <FaDotCircle className="mr-1 relative top-1" />
-              <div className="font-semibold">Vue</div>
+              <div className="font-semibold">Oracle</div>
             </div>
           </article>
           <article className="">
             <div className="flex mr-3">
               <FaDotCircle className="mr-1 relative top-1" />
-              <div className="font-semibold">Nuxt</div>
+              <div className="font-semibold">IBM DB2</div>
             </div>
           </article>
         </div>
+        </div>
           <p>Databases and Storages:</p>
         {/* FOURTH ROW */}
-        <div className='flex p-4 m-4 shadow-xl shadow-blue-600 w-screen overflow-hidden animate-marquee-right'>
+        <div className='flex p-4 m-4 shadow-xl shadow-blue-600 w-screen'>
+          <div className='overflow-hidden animate-marquee-right flex'>
           <article className="">
             <div className=" flex mr-3">
               <FaDotCircle className="mr-1 relative top-1" />
@@ -264,8 +271,9 @@ const Skills = () => {
             </div>
           </article>
         </div>
-          <p>Utilities and Tools:</p>
         </div>
+          <p>Utilities and Tools:</p>
+      </div>
       </div>
     </div>
   );
