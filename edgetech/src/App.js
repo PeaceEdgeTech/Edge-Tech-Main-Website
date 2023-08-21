@@ -3,7 +3,6 @@ import Main from './components/Main'
 import About from './components/About'
 import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
-import Footer from './components/Footer'
 import Services from './components/Services'
 import VM from './components/VM'
 import Contact from './components/Contact'
@@ -15,13 +14,12 @@ function App() {
       <Main />
       <About />
       <Skills />
-      <VM/>
+      <VM />
       <Services />
       <Portfolio />
       <Testimonials />
       <Contact />
       <div className='border border-lg w-full border-blue-600'></div>
-      <Footer />
     </div>
   );
 }

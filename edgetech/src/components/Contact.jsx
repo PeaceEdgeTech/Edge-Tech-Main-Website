@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
-import ContactImg from '../img/logo.png'
+import ContactImg from '../img/contact.jpeg'
 import { AiOutlineMail } from 'react-icons/ai'
 
 const Contact = () => {
@@ -16,7 +16,7 @@ const Contact = () => {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-blue-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full'>
               <div>
-                <img className='rounded-xl hover:scale-105 ease-in duration-300' src={ContactImg} alt='/' />
+                <img className='rounded-xl hover:scale-105 ease-in duration-300 w-full' src={ContactImg} alt='/' />
               </div>
               <div>
                 <h2 className='py-2'>Edge Tech</h2>
@@ -86,7 +86,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='flex justify-center py-12'>
-          <a href='#nav'>
+          <a href='/'>
             <div className='rounded-full shadow-lg shadow-blue-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <HiOutlineChevronDoubleUp className='text-blue-500' size={30} />
             </div>

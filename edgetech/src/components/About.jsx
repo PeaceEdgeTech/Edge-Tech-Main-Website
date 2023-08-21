@@ -1,5 +1,5 @@
 import React from 'react'
-import audi from "../img/Audi.jpg"
+import about from "../img/about.jpeg"
 
 const About = () => {
   return (
@@ -15,7 +15,7 @@ const About = () => {
         </div>
         <div>
           <div className='w-full h-full m-auto shadow-xl shadow-blue-600 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-            <img className='rounded-xl h-full w-full' src={audi} alt='/' />
+            <img className='rounded-xl h-full w-full' src={about} alt='/' />
           </div>
         </div>
       </div>
